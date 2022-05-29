@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 ALLOWED_HOSTS = ['cinemabd.azurewebsites.net','localhost','127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['cinemabd.azurewebsites.net'] 
+CSRF_TRUSTED_ORIGINS = ['cinemabd.azurewebsites.net', 'https://cinemabd.azurewebsites.net'] 
 
 
 # Quick-start development settings - unsuitable for production
